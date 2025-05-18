@@ -12,19 +12,20 @@ h1, h2 {
 }
 header {
     background-color: #372e7d; 
-    color: #ffffff;
+    color: #d88787;
     padding: 1rem;
     text-align: center;
 }
-
 nav {
     background-color: #c8e6c9; /* Verde claro */
 }
-
 .nav-link {
     color: #700a0a !important;
     font-weight: 500;
     transition: all 0.3s ease;
+    }
+    .list-group-item {
+  background-color: #b7ebc0; /* Cambia este color por el que quieras */
 }
 
 .nav-link:hover {
