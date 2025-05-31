@@ -1,0 +1,39 @@
+// -----------------------------
+// Mixin para media query móvil
+// -----------------------------
+@mixin mobile {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+
+// -------------------------------------
+// Mixin para botón con animación suave
+// -------------------------------------
+@mixin button-style($color-hover) {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    background-color: $color-hover;
+    transform: scale(1.05);
+  }
+}
+
+// -------------------------------------
+// Mixin para fade-in hacia arriba (animación)
+// -------------------------------------
+@mixin fade-in-up($duration: 1s) {
+  animation: fadeInUp $duration ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

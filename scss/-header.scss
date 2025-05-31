@@ -1,0 +1,56 @@
+// Estilos para el encabezado
+header {
+  background-color: #2e7d32; // verde oscuro personalizado
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+
+  h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+
+    @include mobile {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+// Estilos para la barra de navegación
+nav {
+  background-color: #f8f9fa; // color claro
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .nav-item {
+    margin: 0 0.5rem;
+
+    .nav-link {
+      color: #700a0a !important;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: white !important;
+        background-color: #a8a634;
+        border-radius: 6px;
+        padding: 0.3rem 0.6rem;
+      }
+
+      @include mobile {
+        display: block;
+        padding: 0.5rem;
+        text-align: center;
+      }
+    }
+  }
+
+  @include mobile {
+    ul {
+      flex-direction: column;
+    }
+  }
+}

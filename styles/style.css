@@ -1,0 +1,96 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fbe7; /* Fondo general */
+  color: #333;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+}
+
+header {
+  background-color: #372e7d;
+  color: #d88787;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #c8e6c9; /* Verde claro */
+}
+
+.nav-link {
+  color: #700a0a !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.list-group-item {
+  background-color: #b7ebc0; /* Cambia este color por el que quieras */
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+  background-color: #a8a634;
+  border-radius: 6px;
+}
+
+.formulario,
+.ubicacion {
+  background-color: #1e8cd6;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea,
+form button {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #9a1a1a;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgba(53, 119, 37, 0.9019607843);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #44a93f;
+}
+
+footer {
+  background-color: #0aaf20;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .formulario,
+  .ubicacion {
+    padding: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

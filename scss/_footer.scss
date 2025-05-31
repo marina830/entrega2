@@ -1,0 +1,50 @@
+// Estilos del pie de página
+
+footer {
+  background-color: #0aaf20; // Verde fuerte
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 8px;
+  }
+
+  a {
+    text-decoration: none;
+
+    img {
+      width: 30px;
+      margin: 0 0.3rem;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1) rotate(5deg);
+      }
+    }
+  }
+
+  @include mobile {
+    padding: 0.5rem;
+
+    h2 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+
+
+
