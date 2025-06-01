@@ -1,8 +1,10 @@
 // -----------------------------
 // Mixin para media query móvil
 // -----------------------------
+
+
 @mixin mobile {
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
     @content;
   }
 }

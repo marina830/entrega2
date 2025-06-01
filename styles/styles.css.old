@@ -170,14 +170,10 @@ main .text-center p {
   margin-bottom: 2rem;
 }
 main .text-center img {
-  transition: transform 0.3s ease;
   max-width: 100%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-main .text-center img:hover {
-  transform: scale(1.05);
 }
 @keyframes fade-in-up {
   from {
@@ -296,4 +292,4 @@ form button:hover {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
