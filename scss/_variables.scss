@@ -4,9 +4,10 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: #f9fbe7; // Fondo general
+  background-color: #ffffff; // ← CORRECTO
   color: #333;
 }
+
 
 h1, h2 {
   font-family: Georgia, serif;
@@ -119,5 +120,3 @@ footer {
     @content;
   }
 }
-
-
